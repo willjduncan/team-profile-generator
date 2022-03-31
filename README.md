@@ -26,7 +26,9 @@ I WANT to generate a webpage that displays my team's basic info
 
 SO THAT I have quick access to their emails and GitHub profiles
 
-<!-- README Generator is a program that creates READMEs. As such: -->
+Team-Profile-Generator is a program that allows the user to set up a workforce list consisting of employees, managers, engineers, and interns. The creation of the program is intended to test and improve my skills using ES6, Node, Jest, and npm, while also giving me a chance to plan and form a project using an object-oriented approach that prioritizes testing first. By the end of the challenge, I should feel more comfortable and equipped to work on back-end development in a professional setting. 
+
+Once complete, the program should operate so that:
 
 GIVEN a command-line application that accepts user input
 
@@ -62,16 +64,16 @@ WHEN I decide to finish building my team
 
 THEN I exit the application, and the HTML is generated
 
-This project had to be accomplished with careful planning, first setting up the necessary scaffolding according to the Challenge guidelines, then downloading the necessary tools, including npm, inquirer, and Jest. From there, the tests had to be established for each Class, before any building of the Classes could commence. 
+This project had to be accomplished with careful planning, first setting up the necessary scaffolding according to the Challenge guidelines, then downloading the necessary tools, including npm, inquirer, and Jest. From there, the tests had to be established for each Class, before any building of the Classes could commence. I started the classes with Employee and then moved on to the others, using Jest-Another-RPG as a blueprint for extending the "Employee" functionality to the other classes. 
 
 <!-- This project was designed to familiarize myself better with Node.js. The completed project should allow me and whoever uses the program to more quickly and easily render README files for future projects and challenges, thus leaving more time to work with actual code. The READMEs should be high-quality and the template dynamic so that it can work in different situations. By the end, I should feel more comfortable with Node and back-end development, thus allowing me to continue confidently in my learning.  -->
 
 
 ## Installation
 
-<!-- Links to the repository and deployed website can be found at [Questions](#questions).
+Links to the repository and deployed website can be found at [Questions](#questions).
 
-Because this project runs from the machine and not the browser, it cannot be deployed. The project is on github, however. You must first clone the repo, then run the command "npm install" on the Terminal/Command Line in order to download the dependencies. From there, you can create your own README.  -->
+Because this project runs from the machine and not the browser, it cannot be deployed. The project is on github, however. You must first clone the repo, then run the command "npm install" on the Terminal/Command Line in order to download the dependencies. Make sure to also download inquirer, using "npm install inquirer". From there, you can fill out your team. If you want to run tests, you also have to install Jest, using "npm install jest --save-dev".
 
 
 ## Usage
@@ -89,22 +91,21 @@ A video explaining and demonstrating the app's functionality is below:
 
 ## Credits
 
-<!-- The coding boot camp Professional README Guide found at https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide was used as a template for this README. 
-The license was picked from [https://choosealicense.com/](https://choosealicense.com/).
+<!-- The coding boot camp Professional README Guide found at https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide was used as a template for this README. The license was picked from [https://choosealicense.com/](https://choosealicense.com/).
 Other credits include: 
 Bootcamp Modules, Bootcamp Challenges, npm
-No TAs or classmates were used in the making of this challenge. Most influence was taken particualrly from Module 9. Node.js and NPM's Inquirer were also used. Tterb's github repository for README badges found at [https://gist.github.com/tterb/982ae14a9307b80117dbf49f624ce0e8](https://gist.github.com/tterb/982ae14a9307b80117dbf49f624ce0e8) was used to get the badges. -->
+No TAs or classmates were used in the making of this challenge. Most influence was taken particualrly from Module 9. Node.js and NPM's Inquirer were also used. -->
 
 
 
 ## Contributing
 
-<!-- Other items to be added can be badges, further options for credits, additional license options, ways to easily upload screenshots, a way to easily toss in the User Story and Acceptance Criteria, and a place to add features. Any other additions are certainly welcome. Just don't break anything.  -->
+Other items to be added can be more classes of employee, such as junior developer, salesperson, or whatever other job may be offered at the organization in question. Speaking of which, a class could be made for the organization as a whole. Addesses, resumes, salaries, PTO, age, social security number, direct deposit, and much more can be added to the input, as long as the more private information is handled with the respective care. Styling can also be improved. 
 
 
 ## Tests
 
-<!-- In order to test, you'll simply need to run the application and try out different combos. You can also create mock data to test the layout and presentation of that data.  -->
+Tests were created using Jest. Currently, there are 22 tests, and all of them pass. More tests can be added to further fill out the 4 classes currently available. To run a test, type "npm run test /CLASS/" to run the tests associated with a specific class (labeled /CLASS/ in the example).
 
 
 ## Questions
@@ -114,7 +115,7 @@ My Github username is willjduncan.
 
 My Github Profile can be found below:
 
-<!-- [https://github.com/willjduncan](https://github.com/willjduncan) -->
+[https://github.com/willjduncan](https://github.com/willjduncan)
 
 
 The repository to this project is below:

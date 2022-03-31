@@ -12,7 +12,7 @@ test('creates an intern object', () => {
 test("gets intern's name from the getName method", () => {
     const intern = new Intern("Phyllis", 123, "phyllis@gmail.com", "Harvard");
   
-    expect(intern.getName()).toEqual(expect.stringContaining(intern.name));
+    expect(intern.getName()).toEqual(expect.stringContaining("Phyllis"));
 
 });
 
@@ -25,13 +25,13 @@ test("gets intern's id from the getId method", () => {
 test("gets intern's school from the getSchool method", () => {
     const intern = new Intern("Phyllis", 123, "phyllis@gmail.com", "Harvard");
   
-    expect(intern.getSchool()).toEqual(expect.stringContaining(intern.school));
+    expect(intern.getSchool()).toEqual(expect.stringContaining("Harvard"));
 });
 
 test("gets intern's email from the getEmail method", () => {
     const intern = new Intern("Phyllis", 123, "phyllis@gmail.com", "Harvard");
   
-    expect(intern.getEmail()).toEqual(expect.stringContaining(intern.email));
+    expect(intern.getEmail()).toEqual(expect.stringContaining("phyllis@gmail.com"));
 });
 
 test("gets 'Intern' from the getRole method", () => {
