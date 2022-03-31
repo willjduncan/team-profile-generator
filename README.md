@@ -62,6 +62,8 @@ WHEN I decide to finish building my team
 
 THEN I exit the application, and the HTML is generated
 
+This project had to be accomplished with careful planning, first setting up the necessary scaffolding according to the Challenge guidelines, then downloading the necessary tools, including npm, inquirer, and Jest. From there, the tests had to be established for each Class, before any building of the Classes could commence. 
+
 <!-- This project was designed to familiarize myself better with Node.js. The completed project should allow me and whoever uses the program to more quickly and easily render README files for future projects and challenges, thus leaving more time to work with actual code. The READMEs should be high-quality and the template dynamic so that it can work in different situations. By the end, I should feel more comfortable with Node and back-end development, thus allowing me to continue confidently in my learning.  -->
 
 
