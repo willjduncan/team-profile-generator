@@ -64,7 +64,9 @@ WHEN I decide to finish building my team
 
 THEN I exit the application, and the HTML is generated
 
-This project had to be accomplished with careful planning, first setting up the necessary scaffolding according to the Challenge guidelines, then downloading the necessary tools, including npm, inquirer, and Jest. From there, the tests had to be established for each Class, before any building of the Classes could commence. I started the classes with Employee and then moved on to the others, using Jest-Another-RPG as a blueprint for extending the "Employee" functionality to the other classes. 
+The final product should place however many members of the workforce there are into their own individual cards with active links on a webpage. 
+
+This project had to be accomplished with careful planning, first setting up the necessary scaffolding according to the Challenge guidelines, then downloading the necessary tools, including npm, inquirer, and Jest. From there, the tests had to be established for each Class, before any building of the Classes could commence. I started the classes with Employee and then moved on to the others, using Jest-Another-RPG as a blueprint for extending the "Employee" functionality to the other classes. I then set up the inquirer to ask the pertinent questions and store the items. I realized it may be easier to set up that functionality within a class, similar to how there was a Game class in Jest-Another-RPG. Therefore, I added an additional class js file to handle all of that. 
 
 <!-- This project was designed to familiarize myself better with Node.js. The completed project should allow me and whoever uses the program to more quickly and easily render README files for future projects and challenges, thus leaving more time to work with actual code. The READMEs should be high-quality and the template dynamic so that it can work in different situations. By the end, I should feel more comfortable with Node and back-end development, thus allowing me to continue confidently in my learning.  -->
 
@@ -78,11 +80,12 @@ Because this project runs from the machine and not the browser, it cannot be dep
 
 ## Usage
 
-<!-- Once the project is cloned and the dependencies downloaded, type "node index" to run the program. The program will provide you with multiple prompts to fill out, including description, picking a license, lising credits, and so forth. Fill them out with your respective information. When you're done, your new README should appear in the dist folder for you to copy and place in your own personal project. 
+<!-- Once the project is cloned and the dependencies downloaded, type "node index" to run the program. The program will provide you with multiple prompts to fill out. When you're done, your new webpage should appear in the dist/ folder for you to open up onto your preferred browser. 
 
-An example of the markdown code is below: 
+Screenshots of the WorkForce Class and the Engineer class is below: 
 
-![screenshot of markdown](/images/screenshot-markdown.png)
+![screenshot of WorkForce](/images/screenshot-workforce.png)
+![screenshot of Engineer](/images/screenshot-engineer.png)
 
 A video explaining and demonstrating the app's functionality is below:
 
@@ -91,10 +94,7 @@ A video explaining and demonstrating the app's functionality is below:
 
 ## Credits
 
-<!-- The coding boot camp Professional README Guide found at https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide was used as a template for this README. The license was picked from [https://choosealicense.com/](https://choosealicense.com/).
-Other credits include: 
-Bootcamp Modules, Bootcamp Challenges, npm
-No TAs or classmates were used in the making of this challenge. Most influence was taken particualrly from Module 9. Node.js and NPM's Inquirer were also used. -->
+The coding boot camp Professional README Guide found at https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide was used as a template for this README. The license was picked from [https://choosealicense.com/](https://choosealicense.com/).The WHEN/THEN section of this README was based off the project assignment Acceptance Criteria. No TAs or classmates were used in the making of this challenge. Most influence was taken particularly from Jest-Another-RPG of Module 10 and the Portfolio Generator from Module 9. Stack Overflow, MDN Web Docs, W3, and Google were critical to my success. Node.js, Jest, and NPM's Inquirer were also used.
 
 
 
@@ -120,7 +120,7 @@ My Github Profile can be found below:
 
 The repository to this project is below:
 
-<!-- [https://github.com/willjduncan/README-generator.git](https://github.com/willjduncan/README-generator.git) -->
+[https://github.com/willjduncan/team-profile-generator.git](https://github.com/willjduncan/team-profile-generator.git)
 
 
 For any additional questions, I can be reached at willdunc12@gmail.com.
