@@ -1,22 +1,14 @@
-// const inquirer = require('inquirer');
-// const Employee = require('./lib/Employee');
-// const Manager = require('./lib/Manager');
-// const Intern = require('./lib/Intern');
-// const Engineer = require('./lib/Engineer');
 const WorkForce = require('./lib/WorkForce');
 const generatePage = require('./src/page-template');
-
-// const { writeFile, copyFile } = require('./utils/generate-site.js');
-
-new WorkForce().promptUser();
+const writeFile = require('./utils/generate-site.js');
 
 // //Prompt user for questions
-// questions()
-// //then generate a template for the data collected
-//   .then(portfolioData => {
-//     return generateReadme(portfolioData);
+new WorkForce().promptUser()
+//then generate a template for the data collected
+//   .then(profileData => {
+//     return generatePage(profileData);
 //   })
-//   //then write it and place the new README in the Dist file
+//   //then write it and place the new HTML page in the Dist file
 //   .then(pageHTML => {
 //     console.log(pageHTML);
 //     return writeFile(pageHTML);

@@ -68,7 +68,8 @@ The final product should place however many members of the workforce there are i
 
 This project had to be accomplished with careful planning, first setting up the necessary scaffolding according to the Challenge guidelines, then downloading the necessary tools, including npm, inquirer, and Jest. From there, the tests had to be established for each Class, before any building of the Classes could commence. I started the classes with Employee and then moved on to the others, using Jest-Another-RPG as a blueprint for extending the "Employee" functionality to the other classes. I then set up the inquirer to ask the pertinent questions and store the items. I realized it may be easier to set up that functionality within a class, similar to how there was a Game class in Jest-Another-RPG. Therefore, I added an additional class js file to handle all of that. 
 
-<!-- This project was designed to familiarize myself better with Node.js. The completed project should allow me and whoever uses the program to more quickly and easily render README files for future projects and challenges, thus leaving more time to work with actual code. The READMEs should be high-quality and the template dynamic so that it can work in different situations. By the end, I should feel more comfortable with Node and back-end development, thus allowing me to continue confidently in my learning.  -->
+I took inspiration from the profile generator of Module 9 for the rest of the challenge, since that was where I had most experience writing and copying html onto a page. Using similar functions, I created the markdown, write, and copy functions, placing them in their own utils and src folders. I went ahead and also copied the CSS file provided in module 9 and added minor changes, such as background color to fit my need. I decided not to remove unapplied classes so that, in the future, should I choose to alter the CSS, it will be easier to adapt. After some tinkering, I managed to display the information properly. 
+
 
 
 ## Installation
@@ -80,14 +81,21 @@ Because this project runs from the machine and not the browser, it cannot be dep
 
 ## Usage
 
-<!-- Once the project is cloned and the dependencies downloaded, type "node index" to run the program. The program will provide you with multiple prompts to fill out. When you're done, your new webpage should appear in the dist/ folder for you to open up onto your preferred browser. 
+Once the project is cloned and the dependencies downloaded, type "node index" to run the program. The program will provide you with multiple prompts to fill out. When you're done, your new webpage should appear in the dist/ folder for you to open up onto your preferred browser. 
 
-Screenshots of the WorkForce Class and the Engineer class is below: 
+Screenshots of the mockup and actual site are shown below
+
+![screenshot of Mockup](/images/screenshot-mockup.png)
+![screenshot of Active Site](/images/screenshot-active.png)
+
+
+Screenshots of the WorkForce Class, Engineer class, and page-template is below: 
 
 ![screenshot of WorkForce](/images/screenshot-workforce.png)
 ![screenshot of Engineer](/images/screenshot-engineer.png)
+![screenshot of page-template](/images/screenshot-page-template.png)
 
-A video explaining and demonstrating the app's functionality is below:
+<!-- A video explaining and demonstrating the app's functionality is below:
 
 [https://drive.google.com/file/d/1S0GGCxyXe6GJ1V3R8rtoEueWn19IoZQi/view](https://drive.google.com/file/d/1S0GGCxyXe6GJ1V3R8rtoEueWn19IoZQi/view) -->
 
