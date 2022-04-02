@@ -95,9 +95,9 @@ Screenshots of the WorkForce Class, Engineer class, and page-template is below:
 ![screenshot of Engineer](/images/screenshot-engineer.png)
 ![screenshot of page-template](/images/screenshot-page-template.png)
 
-<!-- A video explaining and demonstrating the app's functionality is below:
+A video explaining and demonstrating the app's functionality is below:
 
-[https://drive.google.com/file/d/1S0GGCxyXe6GJ1V3R8rtoEueWn19IoZQi/view](https://drive.google.com/file/d/1S0GGCxyXe6GJ1V3R8rtoEueWn19IoZQi/view) -->
+[https://drive.google.com/file/d/1fpUPzZ8xsgI8BrnhTcdO_vuMhYNBl-P1/view](https://drive.google.com/file/d/1fpUPzZ8xsgI8BrnhTcdO_vuMhYNBl-P1/view)
 
 
 ## Credits
